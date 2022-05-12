@@ -10,10 +10,10 @@ const MintingTool = (props) => {
       {
         token_id: `${window.accountId}-go-team-token`,
         metadata: {
-          title: "My Non Fungible Team Token",
-          description: "The Team Most Certainly Goes :)",
+          title: "CommandLine Team NFT",
+          description: "The Team that goes near with NEAR Blockchain :)",
           media:
-            "https://bafybeiftczwrtyr3k7a2k4vutd3amkwsmaqyhrdzlhvpt33dyjivufqusq.ipfs.dweb.link/goteam-gif.gif",
+            "https://bafybeigolztv64z3fcfu55sowyboutqqtmldzh5ugdaqg2iqh7jrzzxjdu.ipfs.nftstorage.link/",
         },
         receiver_id: window.accountId,
       },
@@ -47,7 +47,7 @@ const MintingTool = (props) => {
           {props.userNFTStatus ? (
             <Alert variant='danger' style={{ marginTop: "2vh" }}>
               <p style={{ textAlign: "center" }}>
-                bruh/sis.... You have an NFT already. You can see it{" "}
+                You have an NFT already in this wallet. You can see it{" "}
                 <a href={"https://wallet.testnet.near.org/?tab=collectibles"}>
                   here!
                 </a>
